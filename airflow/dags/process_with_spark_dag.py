@@ -17,7 +17,7 @@ dag = DAG(
     catchup=False,
 )
 
-# Paramètres adaptés à ton projet
+
 kafka_bootstrap_servers = 'kafka:9092'
 kafka_topic = 'csv-data-topic'
 output_dir = '/opt/airflow/data/output_es'
